@@ -11,10 +11,7 @@ body{
   min-height: 100vh;
   background: #E3F2FD;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
 body, .container, .video-controls, .video-timer, .options{
   display: flex;
   align-items: center;
@@ -254,41 +251,29 @@ body, .container, .video-controls, .video-timer, .options{
   .options input, .progress-area span{
     display: none!important;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
   .options button{
     height: 30px;
     width: 30px;
     font-size: 17px;
   }
-<<<<<<< HEAD
 
   .options .video-timer{
     margin-left: 5px;
   }
-
-=======
   .options .video-timer{
     margin-left: 5px;
   }
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
+  
   .video-timer .separator{
     font-size: 14px;
     margin: 0 2px;
   }
-<<<<<<< HEAD
-
   .options button :where(i, span) {
     line-height: 30px;
   }
-  
-=======
   .options button :where(i, span) {
     line-height: 30px;
   }
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
   .options button span{
     font-size: 21px;
   }
@@ -310,13 +295,10 @@ body, .container, .video-controls, .video-timer, .options{
 }
 
 .minimized {
-<<<<<<< HEAD
   width: 300px; 
   height: 169px; 
-=======
   width: 100px; 
   height: 50px; 
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
   position: fixed; 
   bottom: 10px; 
   right: 10px; 
