@@ -181,7 +181,6 @@ playPauseBtn.addEventListener("click", () => mainVideo.paused ? mainVideo.play()
 videoTimeline.addEventListener("mousedown", () => videoTimeline.addEventListener("mousemove", draggableProgressBar));
 document.addEventListener("mouseup", () => videoTimeline.removeEventListener("mousemove", draggableProgressBar));
 
-<<<<<<< HEAD
 const minimizeBtn = document.createElement("div");
 minimizeBtn.classList.add("restore-btn");
 minimizeBtn.innerHTML = "<i class='fas fa-expand'></i>";
@@ -198,9 +197,6 @@ minimizeBtn.addEventListener("click", () => {
     }
 });
 
-
-=======
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
 // Keyboard accessibility
 document.addEventListener("keydown", event => {
     switch (event.key) {
@@ -223,10 +219,6 @@ document.addEventListener("keydown", event => {
             break;
         case "m": // M key
             mainVideo.muted = !mainVideo.muted;
-<<<<<<< HEAD
-            
-=======
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
             if (mainVideo.muted) {
                 volumeSlider.value = 0;
             } else {
@@ -245,11 +237,7 @@ document.addEventListener("keydown", event => {
             document.exitFullscreen();
             break;
         case "w": // W key
-<<<<<<< HEAD
-            if (!container.classList.contains("minimized")){
-=======
             if (!container.classList.contains("minimized")) {
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
                 mainVideo.pause();
                 container.classList.add("minimized");
             } else {
@@ -267,8 +255,6 @@ document.addEventListener("keydown", event => {
         default:
             break;
     }
-<<<<<<< HEAD
+
 });
-=======
 });
->>>>>>> 5fa0ea475c5948ee221f7916f6daf8bb8f7cc83a
